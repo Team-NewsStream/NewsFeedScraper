@@ -8,7 +8,7 @@ ndtv_world_news_url = "https://feeds.feedburner.com/ndtvnews-world-news"
 ny_times_url = "https://www.nytimes.com/"
 the_guardian_url = "https://www.theguardian.com/us/rss"
 un_news_url = "https://news.un.org/en/news"
-yahoo_rss_url = "https://www.yahoo.com/news/rss"
+yahoo_rss_url = "https://news.yahoo.com/rss/"
 yahoo_world_news_rss_url = "https://www.yahoo.com/news/rss/world"
 
 # Header to mimic browser behavior

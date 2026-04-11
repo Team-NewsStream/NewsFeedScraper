@@ -18,7 +18,7 @@ scheduler = BackgroundScheduler()
 
 @app.on_event("startup")
 async def start_scheduler():
-    scheduler.add_job(scrap_and_save_articles, "interval", minutes=20)
+    scheduler.add_job(scrap_and_save_articles, "interval", minutes=30)
     scheduler.add_job(delete_old_articles, "interval", hours=24)
     scheduler.start()
 
